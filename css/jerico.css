@@ -1,0 +1,57 @@
+body {
+	background:  url(../images/1ict.jpg)
+}
+h1 {
+	font-family: Clarendon BT;
+	font-size: 70px;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid gray;
+	background-image: linear-gradient(to right, rgb(220,220,220), rgb(169,169,169));
+
+}
+
+h3 {
+	font-family: Clarendon BT;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 150px;
+}
+
+table, td ,th {
+  border: 1px solid white;
+  border-collapse: collapse;
+ 
+}
+
+td , th{
+  padding: 50px;
+  color: white;
+}
+
+table {
+  border-spacing: 50px;
+}
+
+.parallax { 
+  /* The image used */
+  background-image: url(../Images/par.jpg);
+
+  /* Set a specific height */
+  height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
